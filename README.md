@@ -1,0 +1,2 @@
+# Xiaomi
+xiaomi static website
