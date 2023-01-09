@@ -1,0 +1,266 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    font-family: 'Xiaomi Brand', 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+
+}
+
+.header {
+
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    display: flex;
+    color: #474747;
+}
+
+
+
+.header-left {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-right {
+
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+
+}
+
+.body-part-1 {
+    background-image: url(Images/bgm=image-crop.png);
+    background-size: 1280px 450px;
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+}
+
+.part-1-button {
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 200px;
+    border-radius: 14px;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+
+}
+
+.body-part-1-btn {
+    height: 435px;
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+
+}
+
+.body-part-2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.body-part-2-left {
+    width: 50%;
+    height: 430px;
+}
+
+.part2-img-left {
+    width: 600px;
+    height: 400px;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+.body-part-2-right {
+    background-image: url(Images/p2-right-img.webp);
+    width: 50%;
+    height: 400px;
+    background-size: 600px 400px;
+    background-repeat: no-repeat;
+    margin: 1%;
+
+
+}
+
+.body-part-2-right-h2 {
+    color: white;
+    font-weight: bold !important;
+    font-family: 'Xiaomi Brand', 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    text-align: center;
+}
+
+.body-part-2-right-p {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: 'Xiaomi Brand', 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+}
+
+.part-3 {
+    display: flex;
+}
+
+.part-3-left {
+    background-image: url(Images/part-3-img-left.webp);
+    object-fit: fill;
+    width: 47.2%;
+    height: 400px;
+    background-size: 600px 400px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.part-3-left-p {
+
+    font-weight: bold;
+    font-size: xx-large;
+
+    margin-top: 80px;
+
+
+}
+
+.part-3-center {
+    background-image: url(Images/part-3-img-cntr.webp);
+    width: 25%;
+    height: 400px;
+    background-size: 600px 400px;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+
+
+}
+
+.part-3-center-p {
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+
+}
+
+.part-3-right {
+    background-color: white;
+    width: 265px;
+    height: 400px;
+    background-size: 600px 400px;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+.part-3-right-img {
+    margin: 20px;
+
+}
+
+.part-3-right-txt {
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+
+.part-4 {
+
+    background-color: white;
+    display: flex;
+
+    height: 400px;
+    width: 90%;
+    margin: 4%;
+
+}
+
+.part-4-video {
+
+    height: 379px;
+    width: 666px;
+    margin: 10px;
+}
+
+.part-4-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 90px;
+    padding-top: 30px;
+
+}
+
+.part-5 {
+    width: 50%;
+    background-color:white;
+    margin: 20px;
+    margin-left: 50px;
+    height: 450px;
+   text-align: center;
+   
+    font-size: x-large;
+}
+
+.part-6{
+    width: 489px;
+    height: 160px;
+    background-color: white;
+    margin-left: 650px;
+    margin-top: -300px;
+    margin-bottom: 10px;
+    padding-top: 60px;
+}
+
+.part-6-1{
+    width: 489px;
+    height: 223px;
+    background-color: white;
+    margin-left: 650px;
+    margin-top: -24px;
+}
+
+.footer{
+    width: 100%;
+    height: 450px;
+    background-color: black;
+    display: flex;
+    flex: 5;
+    justify-content: space-around;
+}
+
+.footer-p{
+    color:  #d1d1d1;
+    font-size: small;
+  
+}
+
+.footer-2{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+   margin-top: -30px;
+}
+
+.footer-p-h{
+    color: white;
+    font-weight: 700;
+}
+
+.footer-box{
+    margin-top: 25px;
+    height: 200px;
+    width: 300px;
+  background-color:transparent;
+  border-radius: 8px;
+   
+
+}
